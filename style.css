@@ -42,7 +42,7 @@ body {
   margin: 0;
   font-family: 'Nazanin', sans-serif;
   direction: rtl;
-  font-size: 20px;
+  font-size: 19px;
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
@@ -111,9 +111,12 @@ header p {
 
 .about-section,
 .contact-section {
-  padding: 60px 20px;
-  margin: auto;
+  margin: 60px auto;
   text-align: center;
+}
+
+#about, #skills{
+  padding-top: 65px;
 }
 
 .title {
