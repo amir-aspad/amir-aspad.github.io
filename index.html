@@ -12,8 +12,8 @@
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#skills">مهارت‌ها</a></li>
             <li><a href="#about">درباره من</a></li>
+            <li><a href="#skills">مهارت‌ها</a></li>
             <li><a href="#contact">تماس با من</a></li>
         </ul>
         <button class="theme-toggle" onclick="toggleTheme()">
@@ -25,8 +25,20 @@
         <p>توسعه‌دهنده وب | عاشق یادگیری</p>
     </header>
 
-    <section class="skills-section" id="skills">
-        <h2>زبان های برنامه نویسی</h2>
+    <section class="about-section">
+        <h2 id="about" class="title">درباره من</h2>
+        <p>
+            من امیر اسپاد هستم، توسعه‌دهنده وب با تمرکز بر بک‌اند با Django.
+            عاشق یادگیری فناوری‌های جدیدم و تلاش می‌کنم همیشه کدم تمیز و قابل نگهداری باشه.
+            سابقه کار با فریم‌ورک‌ها، پایگاه داده‌ها و ابزارهای مختلفی رو دارم و به کار تیمی علاقه‌مندم.
+        </p>
+    </section>
+
+
+    
+    <section class="skills-section" >
+        <h2 class="title" id="skills">مهارت ها</h2>
+        <h3>زبان های برنامه نویسی</h3>
         <div class="skills-group" data-animated="false">
             <div class="skills">
                 <div class="gauge" data-percent="100">
@@ -50,7 +62,7 @@
             </div>
         </div>
 
-        <h2>کتابخانه ها و فریم‌ورک ها</h2>
+        <h3>کتابخانه ها و فریم‌ورک ها</h3>
         <div class="skills-group" data-animated="false">
             <div class="skills">
                 <div class="gauge" data-percent="100">
@@ -74,7 +86,7 @@
             </div>
         </div>
 
-        <h2>مهارت‌های فرانت‌اند</h2>
+        <h3>مهارت‌های فرانت‌اند</h3>
         <div class="skills-group" data-animated="false">
             <div class="skills">
                 <div class="gauge" data-percent="100">
@@ -116,7 +128,7 @@
             </div>
         </div>
 
-        <h2>پایگاه داده</h2>
+        <h3>پایگاه داده</h3>
         <div class="skills-group" data-animated="false">
             <div class="skills">
                 <div class="gauge" data-percent="90">
@@ -149,7 +161,7 @@
             </div>
         </div>
 
-        <h2>ابزارها و سایر مهارت‌ها</h2>
+        <h3>ابزارها و سایر مهارت‌ها</h3>
         <div class="skills-group" data-animated="false">
             <div class="skills">
                 <div class="gauge" data-percent="90">
