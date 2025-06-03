@@ -42,7 +42,7 @@ body {
   margin: 0;
   font-family: 'Nazanin', sans-serif;
   direction: rtl;
-  font-size: 22px;
+  font-size: 20px;
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
