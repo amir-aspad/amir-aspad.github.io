@@ -116,6 +116,27 @@ header p {
   line-height: 1.8;
 }
 
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.contact-section li {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.contact-section a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
 .skills-section h3 {
   text-align: center;
   font-size: 1.3rem;
