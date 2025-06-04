@@ -500,6 +500,7 @@ strong {
   top: -50px;
   right: 0;
   left: 0;
+  overflow: hidden;
   margin: auto;
   pointer-events: none;
 }
@@ -509,7 +510,6 @@ strong {
   z-index: 22;
   top: 0;
   width: 100%;
-  min-width: 550px;
 }
 
 .hero svg {
