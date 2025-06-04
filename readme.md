@@ -13,7 +13,7 @@
 - [Bootstrap](https://getbootstrap.com/)
 
 ## 📸 پیش‌نمایش
-![screenshot](./iamges/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ## ⚙️ نحوه اجرا
 
