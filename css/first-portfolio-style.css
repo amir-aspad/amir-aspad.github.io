@@ -4,7 +4,7 @@
 :root {
   --accent-color: #4caf50;
   --gauge-bg: #e0e0e0;
-  
+
   --white-color: #ffffff;
   --primary-color: #535da1;
   --secondary-color: #14B789;
@@ -549,6 +549,10 @@ strong {
   display: inline-block;
 }
 
+.profile-body {
+  padding: 8px;
+}
+
 .profile-body p {
   margin-bottom: 0;
 }
@@ -574,10 +578,12 @@ strong {
   font-size: var(--h1-font-size);
   line-height: normal;
   display: block;
+  text-align: center;
 }
 
 .featured-text {
   color: var(--secondary-color);
+  text-align: center;
 }
 
 .featured-border-bottom {
@@ -710,7 +716,7 @@ strong {
   gap: 40px;
 }
 
-.skills-section{
+.skills-section {
   gap: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -718,7 +724,7 @@ strong {
   justify-content: center;
 }
 
-.skills-group{
+.skills-group {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -735,6 +741,7 @@ strong {
   width: 160px;
   height: 160px;
   position: relative;
+  overflow: hidden;
 }
 
 .gauge circle {
@@ -762,7 +769,7 @@ strong {
   text-align: center;
 }
 
-.skills-category{
+.skills-category {
   font-size: 15px;
   margin: 0px auto;
 }
@@ -966,7 +973,7 @@ strong {
   color: var(--white-color);
 }
 
-.contact-image{
+.contact-image {
   padding: 25px;
   width: 100%;
 }
@@ -1019,6 +1026,11 @@ strong {
 
   h6 {
     font-size: 18px;
+  }
+
+  .hero-title,
+  .hero h2 {
+    font-size: 33px !important;
   }
 
   .section-padding {
